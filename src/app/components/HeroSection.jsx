@@ -7,7 +7,7 @@ import Link from "next/link";
 
 const HeroSection = () => {
   return (
-    <section className="lg:py-16">
+    <section className="lg:py-16 h-[80vh]">
       <div className="grid grid-cols-1 sm:grid-cols-12">
         <motion.div
           initial={{ opacity: 0, scale: 0.5 }}
@@ -22,13 +22,9 @@ const HeroSection = () => {
             <br></br>
             <TypeAnimation
               sequence={[
-                "Judy",
+                " Mani vardhan",
                 1000,
                 "Web Developer",
-                1000,
-                "Mobile Developer",
-                1000,
-                "UI/UX Designer",
                 1000,
               ]}
               wrapper="span"
@@ -36,10 +32,6 @@ const HeroSection = () => {
               repeat={Infinity}
             />
           </h1>
-          <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
-            voluptuous.
-          </p>
           <div>
             <Link
               href="/#contact"
@@ -67,7 +59,7 @@ const HeroSection = () => {
             <Image
               src="/images/hero-image.png"
               alt="hero image"
-              className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+              className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 w-full rounded-full border-4 border-pink-500"
               width={300}
               height={300}
             />

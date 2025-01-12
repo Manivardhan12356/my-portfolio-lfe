@@ -28,9 +28,9 @@ const Navbar = () => {
       <div className="flex container lg:py-4 flex-wrap items-center justify-between mx-auto px-4 py-2">
         <Link
           href={"/"}
-          className="text-2xl md:text-5xl text-white font-semibold"
+          className="text-3xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-primary-400 to-secondary-600 rounded hover:text-blue-200"
         >
-          LOGO
+          MV
         </Link>
         <div className="mobile-menu block md:hidden">
           {!navbarOpen ? (
