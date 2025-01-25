@@ -4,6 +4,7 @@ import GithubIcon from "../../../public/github-icon.svg";
 import LinkedinIcon from "../../../public/linkedin-icon.svg";
 import Link from "next/link";
 import Image from "next/image";
+import { Email } from "@mui/icons-material";
 
 const EmailSection = () => {
   return (
@@ -23,10 +24,11 @@ const EmailSection = () => {
           try my best to get back to you!
         </p>
         <div className="socials flex flex-row gap-2">
-          <Link href="github.com">
+          <Link href="https://github.com/Manivardhan12356">
             <Image src={GithubIcon} alt="Github Icon" />
           </Link>
-          <Link href="linkedin.com">
+        
+          <Link href="https://www.linkedin.com/in/mani-vardhan-4689151b1">
             <Image src={LinkedinIcon} alt="Linkedin Icon" />
           </Link>
         </div>

@@ -5,42 +5,49 @@ import ProjectTag from "./ProjectTag";
 import { motion, useInView } from "framer-motion";
 
 const projectsData = [
-
   {
     id: 1,
     title: "E-commerce Application",
     description: "Mern stack",
     image: "/images/projects/emg.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl:
+      "https://github.com/Manivardhan12356/jwt-fullstack-project-mern.git",
+    // previewUrl: "/",
+  },
+  {
+    id: 2,
+    title: "Music App",
+    description: "React.js",
+    image: "/images/projects/music.png",
+    tag: ["All", "Mobile"],
+    gitUrl: "https://github.com/Manivardhan12356/music-app-frontend.git",
+    previewUrl: "https://harmonious-duckanoo-80ca20.netlify.app",
+  },
+  {
+    id: 3,
+    title: "Responsive UI with slider card",
+    description: "HTML, CSS ,React ,js ,Swiper JS",
+    image: "/images/projects/togglehead.png",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/Manivardhan12356/togglehead-in",
+    previewUrl: "https://sage-profiterole-29bd87.netlify.app",
   },
   {
     id: 4,
-    title: "Food Ordering Application",
-    description: "Project 4 description",
-    image: "/images/projects/4.png",
-    tag: ["All", "Mobile"],
-    gitUrl: "/",
-    previewUrl: "/",
+    title: "Flight Ticket UI",
+    description: "HTML , CSS",
+    image: "/images/projects/provad_Task.png",
+    tag: ["All", "Web"],
+    previewUrl: "https://monumental-choux-84e15d.netlify.app",
   },
   {
     id: 5,
-    title: "React Firebase Template",
-    description: "Authentication and CRUD operations",
-    image: "/images/projects/5.png",
+    title: "E-commercer UI",
+    description: "HTML, CSS ,JS",
+    image: "/images/projects/ecommerce.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
-  },
-  {
-    id: 6,
-    title: "Full-stack Roadmap",
-    description: "Project 5 description",
-    image: "/images/projects/6.png",
-    tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    previewUrl: "https://nimble-alfajores-d4914d.netlify.app",
   },
 ];
 

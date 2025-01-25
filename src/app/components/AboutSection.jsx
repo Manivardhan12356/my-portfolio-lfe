@@ -10,17 +10,17 @@ const TAB_DATA = [
     id: "skills",
     content: (
       <ul className="list-disc pl-2">
+        <li>React.js</li>
+        <li>Next.js</li>
+        <li>Remix.js</li>
+        <li>Tailwind CSS</li>
+        <li>JavaScript</li>
         <li>Node.js</li>
         <li>Express.js</li>
         <li>PostgreSQL</li>
         <li>MongoDB</li>
-        <li>Next.js</li>
-        <li>Remix.js</li>
         <li>Python</li>
         <li>Flask</li>
-        <li>JavaScript</li>
-        <li>React</li>
-        <li>Tailwind CSS</li>
       </ul>
     ),
   },
@@ -37,9 +37,7 @@ const TAB_DATA = [
   {
     title: "Experience",
     id: "experience",
-    content: (
-      <AccordionExpandIcon />
-    ),
+    content: <AccordionExpandIcon />,
   },
 ];
 
@@ -60,10 +58,13 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg flex">
-            I am a full stack web developer with a passion for creating interactive and responsive web applications.
-            I have experience working with JavaScript, Next.js, Remix.js, React.js, Redux, Node.js, Express.js,
-            MongoDB, PostgreSQL, HTML, CSS, and Git. I am a quick learner and always looking to expand my
-            knowledge and skill set. I am a team player and excited to work with others to create amazing applications.
+            I am a full stack web developer with a passion for creating
+            interactive and responsive web applications. I have experience
+            working with JavaScript, Next.js, Remix.js, React.js, Redux,
+            Node.js, Express.js, MongoDB, PostgreSQL, HTML, CSS, and Git. I am a
+            quick learner and always looking to expand my knowledge and skill
+            set. I am a team player and excited to work with others to create
+            amazing applications.
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton
@@ -93,7 +94,7 @@ const AboutSection = () => {
           </div>
         </div>
       </div>
-    </section >
+    </section>
   );
 };
 
